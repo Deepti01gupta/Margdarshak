@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusConnect — Your Placement Universe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --blue-900: #1e3a8a;
+        --blue-800: #1e40af;
+        --blue-700: #1d4ed8;
+        --blue-600: #2563eb;
+        --blue-500: #3b82f6;
+        --blue-400: #60a5fa;
+        --blue-100: #dbeafe;
+        --blue-50:  #eff6ff;
+        --sky-500:  #0ea5e9;
+        --bg:       #f0f5ff;
+        --white:    #ffffff;
+        --text:     #0f172a;
+        --muted:    #64748b;
+        --font-body: 'Plus Jakarta Sans', sans-serif;
+        --font-display: 'Instrument Serif', serif;
+      }
+      html { scroll-behavior: smooth; }
+      body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; }
+      ::-webkit-scrollbar { width: 5px; }
+      ::-webkit-scrollbar-thumb { background: linear-gradient(var(--blue-600), var(--sky-500)); border-radius: 10px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
