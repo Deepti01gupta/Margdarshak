@@ -212,7 +212,7 @@ export default function LandingPage() {
       }}>
         <div style={{display:'flex',alignItems:'center',gap:8,marginRight:16,flexShrink:0}}>
           <div style={{width:34,height:34,borderRadius:10,background:'linear-gradient(135deg,#1d4ed8,#3b82f6)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:17}}>🎓</div>
-          <span style={{fontSize:18,fontWeight:800,letterSpacing:'-0.5px',color:'#0f172a'}}>Campus<span style={{color:'#2563eb'}}>Connect</span></span>
+              <span style={{fontSize:18,fontWeight:800,letterSpacing:'-0.5px',color:'#0f172a'}}>Margdarshak</span>
         </div>
         <div style={{display:'flex',flex:1,justifyContent:'center',gap:0}}>
           {['Company','Preparation','Alumni','Chatbot'].map((n,i)=>(
@@ -529,7 +529,7 @@ export default function LandingPage() {
                 </span>
               </h2>
               <p style={{fontSize:17,color:'rgba(255,255,255,.6)',marginBottom:46,maxWidth:460,margin:'0 auto 46px',lineHeight:1.8}}>
-                Join 2,400+ students using CampusConnect to prepare smarter, connect better, and place faster.
+                Join 2,400+ students using Margdarshak to prepare smarter, connect better, and place faster.
               </p>
               <div style={{display:'flex',gap:16,justifyContent:'center',flexWrap:'wrap'}}>
                 <Link to="/register"><button className="g-btn" style={{fontSize:16,padding:'16px 42px'}}>Join as Student 🎓</button></Link>
@@ -560,7 +560,7 @@ export default function LandingPage() {
                 style={{fontSize:13,color:'#94a3b8',cursor:'pointer',fontWeight:500}}>{n}</span>
             ))}
           </div>
-          <div style={{fontSize:12,color:'#cbd5e1'}}>© 2025 CampusConnect. Made with ❤️</div>
+              <div style={{fontSize:12,color:'#cbd5e1'}}>© 2025 Margdarshak. Made with ❤️</div>
         </div>
       </footer>
     </div>

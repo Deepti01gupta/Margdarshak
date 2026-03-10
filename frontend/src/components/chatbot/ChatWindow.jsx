@@ -5,7 +5,7 @@ import { WS_URL } from '../../utils/constants';
 
 export default function ChatWindow() {
   const [msgs, setMsgs]   = useState([
-    { id:1, from:'bot', text:'Hi! I am your CampusConnect assistant. Ask me about interview prep, company patterns, or connect with alumni! 🎓', time:'10:00' },
+    { id:1, from:'bot', text:'Hi! I am your Margdarshak assistant. Ask me about interview prep, company patterns, or connect with alumni! 🎓', time:'10:00' },
   ]);
   const [ws, setWs]       = useState(null);
   const [connected, setConnected] = useState(false);
@@ -40,7 +40,7 @@ export default function ChatWindow() {
       <div style={{ padding:'16px 22px', borderBottom:'1px solid rgba(37,99,235,.1)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:38, height:38, borderRadius:12, background:'linear-gradient(135deg,#1d4ed8,#3b82f6)', display:'flex', alignItems:'center', justifyContent:'center', fontSize:18 }}>🤖</div>
         <div>
-          <div style={{ fontWeight:800, fontSize:15 }}>CampusConnect AI</div>
+          <div style={{ fontWeight:800, fontSize:15 }}>Margdarshak AI</div>
           <div style={{ fontSize:11, display:'flex', alignItems:'center', gap:6 }}>
             <span style={{ width:6, height:6, borderRadius:'50%', background: connected?'#22c55e':'#f59e0b', display:'inline-block' }}/>
             <span style={{ color:'#64748b' }}>{connected?'Connected via WebSocket':'Demo mode'}</span>
